@@ -1,0 +1,209 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url("../images/grad.jpeg");
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+}
+
+.brand {
+  color: white !important;
+  font-family: 'Abel', sans-serif;
+  padding-left: 15px !important;
+}
+
+.header {
+  background-color: midnightblue;
+}
+
+.moon-logo {
+  margin-top: 30px;
+}
+
+#first-time {
+  color: lightgrey;
+}
+
+#setNavButton {
+  color: midnightblue;
+}
+
+.form {
+  margin-top: 50px;
+  background-color: white;
+  color: midnightblue;
+}
+
+.form modal{
+  margin-top: none;
+}
+.input {
+  border-color: grey;
+}
+
+.card-pic {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#successMessage {
+  color: green;
+}
+
+.nav-text {
+  color: midnightblue !important;
+}
+
+/* form colors */
+
+/* label color */
+
+.input-field label {
+  color: midnightblue !important;
+  border-bottom: midnightblue !important;
+  box-shadow: midnightblue !important;
+}
+
+/* email */
+
+.input-field input[type=email].invalid {
+  color: midnightblue;
+  border-bottom: 1px solid red;
+  box-shadow: none !important;
+}
+.input-field input[type=email].valid {
+  color: midnightblue;
+  border-bottom: 1px solid midnightblue;
+  box-shadow: none !important;
+}
+
+.input-field input[type=email]:focus {
+  color: midnightblue !important;
+  border-bottom: 1px solid midnightblue !important;
+  box-shadow: none !important;
+}
+
+/* password */
+.input-field input[type=password].invalid {
+  color: midnightblue;
+  border-bottom: 1px solid red;
+  box-shadow: none !important;
+}
+.input-field input[type=password].valid {
+  color: midnightblue;
+  border-bottom: 1px solid midnightblue;
+  box-shadow: none !important;
+}
+
+.input-field input[type=password]:focus {
+  color: midnightblue !important;
+  border-bottom: 1px solid midnightblue !important;
+  box-shadow: none !important;
+}
+
+/* text */
+.input-field input[type=text].invalid {
+  color: midnightblue;
+  border-bottom: 1px solid red;
+  box-shadow: none !important;
+}
+.input-field input[type=text].valid {
+  color: midnightblue;
+  border-bottom: 1px solid midnightblue;
+  box-shadow: none !important;
+}
+
+.input-field input[type=text]:focus {
+  color: midnightblue !important;
+  border-bottom: 1px solid midnightblue !important;
+  box-shadow: none !important;
+}
+
+
+/* number */
+
+.input-field input[type=number].invalid {
+  color: midnightblue;
+  border-bottom: 1px solid red;
+  box-shadow: none !important;
+}
+.input-field input[type=number].valid {
+  color: midnightblue;
+  border-bottom: 1px solid midnightblue;
+  box-shadow: none !important;
+}
+
+.input-field input[type=number]:focus {
+  color: midnightblue !important;
+  border-bottom: 1px solid midnightblue !important;
+  box-shadow: none !important;
+}
+
+
+.input-field input[type=number]:focus {
+  color: midnightblue !important;
+  border-bottom: 1px solid midnightblue !important;
+  box-shadow: none !important;
+}
+
+.input-field input[type=number]:active {
+  color: midnightblue !important;
+  border-bottom: 1px solid midnightblue !important;
+  box-shadow: none !important;
+}
+
+.input-field input[type=number]:invalid {
+  color: midnightblue !important;
+  border-bottom: 1px solid midnightblue !important;
+  box-shadow: none !important;
+}
+
+.input-field input[type=text]:focus {
+  color: midnightblue !important;
+  border-bottom: 1px solid midnightblue !important;
+  box-shadow: 0 1px 0 0 midnightblue !important;
+}
+
+/* valid color */
+
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+  color: midnightblue;
+  border-bottom: midnightblue;
+  box-shadow: 0 1px 0 0 midnightblue;
+}
+
+/* switch colors */
+
+.switch label input[type=checkbox]:checked+.lever {
+  background-color: orange;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+  background-color: orange;
+}
+
+/* button colors */
+
+.button-color {
+  background-color: midnightblue !important;
+}
+
+.btn:hover {
+  background-color: midnightblue !important;
+}
+
+.btn:active {
+  background-color: midnightblue !important;
+}
+
+.btn:visited {
+  background-color: midnightblue !important;
+}
